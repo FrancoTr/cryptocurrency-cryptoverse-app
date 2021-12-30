@@ -8,12 +8,13 @@ import {
   FundOutlined,
   MenuFoldOutlined,
 } from "@ant-design/icons";
+import icon from "../images/cryptocurrency.png";
 
 const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo-container">
-        <Avatar />
+        <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
           <Link to="/">Cryptoverse</Link>
         </Typography.Title>
