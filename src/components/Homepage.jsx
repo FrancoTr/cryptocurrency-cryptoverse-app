@@ -27,7 +27,7 @@ const Homepage = () => {
           <Statistic title="Total Cryptocurrencies" value={globalStats.total} />
         </Col>
         <Col span={12}>
-          <Statistic title="Total Exchanges" value={millify(globalStats.exchanges)} />
+          <Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} />
         </Col>
         <Col span={12}>
           <Statistic title="Total Market Cap" value={millify(globalStats.totalMarketCap)} />
