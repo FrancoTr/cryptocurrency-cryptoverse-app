@@ -39,6 +39,14 @@ const Homepage = () => {
           <Statistic title="Total Markets" value={millify(globalStats.totalMarkets)} />
         </Col>
       </Row>
+      <div className="home-heading-container">
+        <title level={2} className="home-title">
+          Top 10 Cryptocurrencies in the world
+        </title>
+        <title level={3} className="show-more">
+          <Link to="/cryptocurrencies">Show more</Link>
+        </title>
+      </div>
     </>
   );
 };
