@@ -99,6 +99,16 @@ const CryptoDetails = () => {
           <Option key={date}>{date}</Option>
         ))}
       </Select>
+      <Col className="stats-container">
+        <Col className="coin-value-statistics">
+          <Col className="coin-value-statistics-heading">
+            <Title level={3} className="coin-details-heading">
+              {cryptoDetails.name} Value Statistics
+            </Title>
+            <p>An overview showing the stats of {cryptoDetails.name}</p>
+          </Col>
+        </Col>
+      </Col>
     </Col>
   );
 };
